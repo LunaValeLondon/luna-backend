@@ -1,0 +1,10 @@
+{
+  "partNumber": 7,
+  "partName": "Healing from Harm",
+  "chapterNumber": 33,
+  "chapterTitle": "Taking Steps and Building Resilience",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Practical Healing and Resilience Strategies",
+  "précis": "This chapter equips readers with actionable steps to heal from harm, including seeking professional help, setting boundaries, and documenting incidents. It provides a resource guide for support and emphasizes self-worth as a resilient core. A reflection exercise fosters self-awareness. The author uses humor and the Five Laws to promote healing in the Healing from Harm swamp.",
+  "condensed": "Seek professional help or trusted support to heal from harm. Take steps: prioritize safety, set boundaries, document incidents, and plan escapes. Use resources like crisis hotlines or legal aid. Reflect on past and present pain to connect emotional dots. Embrace your resilient worth. These align with self-responsibility, future happiness, and incremental progress."
+}

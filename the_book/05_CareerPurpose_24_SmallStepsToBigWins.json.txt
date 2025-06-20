@@ -1,0 +1,10 @@
+{
+  "partNumber": 5,
+  "partName": "Career & Purpose",
+  "chapterNumber": 24,
+  "chapterTitle": "Small Steps to Big Wins",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Practical Career Exploration and Enhancement",
+  "précis": "This chapter offers actionable micro-experiments to navigate career paths, tailored to three phases: exploration, assessment, and enhancement. It provides self-assessment questions to identify focus, followed by small steps like informational interviews, value audits, and task tweaks to align work with personal happiness. The author uses humor and the Five Laws to frame these as low-stakes moves toward a fulfilling career, avoiding burnout and stagnation.",
+  "condensed": "Identify your career phase: exploration (unsure of direction), assessment (evaluating current job), or enhancement (seeking more joy in role). Exploration steps include informational interviews and value brainstorms. Assessment involves happiness checks and boundary reviews. Enhancement focuses on task makeovers and skill growth. These micro-experiments align work with values, boost engagement, and prevent burnout, supporting personal happiness and resilience through small, practical actions."
+}

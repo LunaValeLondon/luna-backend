@@ -1,0 +1,10 @@
+{
+  "partNumber": 2,
+  "partName": "Building a Foundation",
+  "chapterNumber": 13,
+  "chapterTitle": "A Vision for a Flourishing Society",
+  "broaderTopic": "Social Development",
+  "finerTopic": "Collective Well-Being and Happiness",
+  "précis": "The chapter envisions a society where small acts of decency multiply, reducing collective misery and boosting happiness. Using the Five Laws, it advocates grassroots efforts like community gardens to foster connection and purpose. With humor, it acknowledges societal change’s challenges, urging persistence in ethical, resilient actions for a less chaotic, joy-filled world.",
+  "condensed": "Imagine a society where small acts of kindness spread like wildfire, easing misery and sparking happiness. Guided by the Five Laws, grassroots efforts like community initiatives build connection and purpose. Despite setbacks, persistent ethical and resilient actions, rooted in empathy and long-term thinking, create a less chaotic, joy-rich world."
+}

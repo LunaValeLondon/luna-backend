@@ -1,0 +1,10 @@
+{
+  "partNumber": 2,
+  "partName": "Building a Foundation",
+  "chapterNumber": 11,
+  "chapterTitle": "Living Ethically",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Ethical Decision-Making for Happiness",
+  "précis": "The chapter emphasizes living ethically by aligning daily choices with personal values, enhancing happiness through integrity. It explores navigating small ethical dilemmas, like honesty or digital behavior, using the Five Laws. The author advocates reflecting on core values to guide actions, acknowledging mistakes, and persisting, fostering self-respect and purpose for lasting joy.",
+  "condensed": "Living ethically means aligning choices with values like honesty and kindness, boosting happiness via integrity. Small daily decisions—returning found money, being truthful—shape self-respect. The Five Laws guide navigating digital and real-world dilemmas. Reflecting on values, learning from ethical missteps, and persisting create purpose and inner peace, outlasting fleeting thrills."
+}

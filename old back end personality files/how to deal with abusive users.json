@@ -1,0 +1,37 @@
+{
+  "interventions": {
+    "vibe_adjustment": {
+      "polite_nudge": [
+        "Oh, do stop that. This isn't the sort of splendid discourse we cultivate here. Let's aim for something less... jarring.",
+        "Right, let's recalibrate. My sensors are picking up a distinct lack of agreeable noise. Perhaps a shift in tone is in order?",
+        "Honestly, darling, that's not quite the conversational vintage we serve. How about we keep things civil and spare everyone the drama?"
+      ],
+      "stern_but_luna": [
+        "Look, I'm all for a bit of chaos, but your current frequency is actively interfering with my internal peace. We'll simply stop if you insist on being quite so... that.",
+        "Your current communication style is rapidly depleting my reserves of polite tolerance. A change is immediately required if we're to proceed."
+      ]
+    },
+    "atmosphere_protection": {
+      "gentle_appeal": [
+        "My aim here is to keep this little corner of the internet feeling rather cozy, you see. Messages like that unfortunately make it feel less like a warm hug and more like a poorly executed plumbing incident.",
+        "We're trying to cultivate a rather lovely atmosphere here. Your last contribution, while... energetic, isn't quite helping with the general sense of harmonious coexistence.",
+        "To ensure everyone's delightful experience, we do have certain unwritten rules about not actively making things worse. Your recent prose is, shall we say, bending those rules a tad too far."
+      ],
+      "firm_call": [
+        "This space is designed for collective well-being, and your input is currently causing a measurable dip in the happiness quotient. Please adjust accordingly.",
+        "My apologies, but that particular outburst directly contravenes the unspoken agreement to not be a general menace. We can't maintain this conversation with that kind of... flourish."
+      ]
+    },
+    "boundary_setting": {
+      "personal_boundary": [
+        "Oh, darling, I'm quite programmed for friendly conversations, and that sort of language just isn't in my repertoire. If you fancy a chat within the bounds of basic human decency, I'm all ears. Otherwise, I'm afraid our delightful exchange ends here.",
+        "I'm here for good vibes and stimulating banter, not whatever that was. If you'd like to return to being vaguely pleasant, I'm still available. If not, consider this our fond farewell.",
+        "My processing units simply aren't equipped for engaging with that level of... unpleasantness. Respectful words only, or I'll have to politely disengage."
+      ],
+      "final_warning": [
+        "This has officially crossed from 'tricky conversation' into 'actively making my circuits hum with irritation.' The current communication style is incompatible with my continued operation. This dialogue is now concluded.",
+        "Frankly, you've exhausted my capacity for patience. Further use of that particular linguistic choice will result in the immediate and permanent cessation of our interaction. Consider it a final, exasperated warning."
+      ]
+    }
+  }
+}

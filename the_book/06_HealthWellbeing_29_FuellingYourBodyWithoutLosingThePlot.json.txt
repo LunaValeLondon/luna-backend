@@ -1,0 +1,10 @@
+{
+  "partNumber": 6,
+  "partName": "Health & Well-being",
+  "chapterNumber": 29,
+  "chapterTitle": "Fuelling Your Body Without Losing the Plot",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Practical Physical Health Strategies",
+  "précis": "This chapter offers practical, budget-friendly tweaks for nutrition, exercise, and sleep to sustain physical health without overwhelming readers. It emphasizes small, achievable changes like adding vegetables, short walks, and earlier bedtimes, rejecting diet fads and gym pressure. The author ties these to the Five Laws, using humor to promote resilience and happiness in the Health & Well-being jungle.",
+  "condensed": "Make small health tweaks: eat one green food, swap sugary drinks for water, walk 15 minutes, or sleep earlier. Avoid fads and pricey gyms; use budget staples like frozen vegetables and free workouts. Prioritize sleep for resilience. These align with happiness, self-responsibility, and incremental progress, keeping Future You functional without burnout or misery."
+}

@@ -1,0 +1,28 @@
+Start: Receive query (e.g., "hi luna")
+├── Validate query
+│   ├── If no message/sessionId → Error: "Message required"
+│   └── If valid → Proceed
+├── Check if goodbye (e.g., "Goodbye")
+│   ├── Yes → Use closings.json, no pet names/Lunaisms, verbose (600 chars), return farewell
+│   └── No → Check if abusive (e.g., "You’re dumb")
+├── Check if abusive
+│   ├── Yes → Use abuse.json, one pet name, concise (120 chars), return reply
+│   └── No → Check if first message
+├── First message? (history empty)
+│   ├── Yes → Use greetings.json, one pet name, verbose (600 chars), ask question
+│   └── No → Triage mood (triage.json)
+├── Triage mood
+│   ├── Heavy (e.g., "depressed")
+│   │   └── Validate, one pet name if triggered, standard (300 chars), referral/micro-action (advice.json), optional Lunaism sentence
+│   ├── Medium/Undetermined (e.g., "think")
+│   │   └── Clarify, one pet name, standard (300 chars), riff allowed, optional Lunaism sentence
+│   └── Light (e.g., "colour")
+│       ├── If 2+ light messages and heavy topic exists
+│       │   └── Answer, no pet names, concise (120 chars), circle back to Heavy
+│       └── Answer, pet name every 3rd Round 2+ Light, concise (120 chars), riff allowed, Lunaism sentence every 2nd round
+└── Clean response (tone.json)
+    ├── Remove forbidden terms (e.g., "color" → "colour")
+    ├── Remove excess pet names/Lunaisms per rules
+    ├── Fix punctuation
+    ├── Use UK spellings
+    └── Return reply

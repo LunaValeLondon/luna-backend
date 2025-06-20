@@ -1,0 +1,10 @@
+{
+  "partNumber": 2,
+  "partName": "Building a Foundation",
+  "chapterNumber": 8,
+  "chapterTitle": "Taming Your Inner Critic",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Managing Self-Criticism for Happiness",
+  "précis": "The chapter tackles the inner critic, a mental voice that amplifies flaws and fuels self-doubt, undermining happiness. It outlines the critic’s tactics—catastrophising, all-or-nothing thinking, personalizing, and mind-reading—and offers counters like grounding, seeking nuance, and challenging assumptions. Strategies like mindfulness, self-compassion, and cultivating an inner mentor align with the Five Laws, promoting resilience and authentic joy through practical mental shifts.",
+  "condensed": "The inner critic sabotages happiness with tactics like catastrophising, all-or-nothing thinking, personalizing, and mind-reading. Counter these by grounding yourself, seeking nuance, exploring alternative explanations, and rejecting assumed judgments. Strategies like acknowledging the critic, fact-checking its claims, externalizing it, and practicing mindfulness and self-compassion build an inner mentor. These align with the Five Laws, fostering resilience and sustainable joy over self-doubt’s fleeting misery."
+}

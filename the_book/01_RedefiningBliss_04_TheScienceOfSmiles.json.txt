@@ -1,0 +1,10 @@
+{
+  "partNumber": 1,
+  "partName": "Redefining Bliss",
+  "chapterNumber": 4,
+  "chapterTitle": "The Science of Smiles",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Scientific Foundations of Happiness",
+  "précis": "The chapter examines scientific evidence supporting the Five Laws, focusing on the Harvard Study of Adult Development and the Oxford Happiness Questionnaire (OHQ-SF). The 80-year Harvard study reveals strong relationships as the key to long, healthy lives, aligning with laws emphasizing connection and non-harm. The OHQ-SF offers a quick self-assessment of happiness, promoting self-awareness. The author underscores human connection and reflection as critical for authentic bliss.",
+  "condensed": "The Harvard Study, spanning 80 years, shows strong relationships predict long, healthy, happy lives, supporting the Five Laws’ focus on personal joy, non-harm, resilience, and long-term well-being. The Oxford Happiness Questionnaire (OHQ-SF) provides a quick self-assessment, encouraging reflection on emotional states to enhance self-awareness. These findings emphasize cultivating genuine connections and owning your feelings over chasing fame or wealth, fostering sustainable happiness through community and introspection."
+}

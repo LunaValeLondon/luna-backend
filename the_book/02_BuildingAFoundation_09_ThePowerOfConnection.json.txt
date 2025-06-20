@@ -1,0 +1,10 @@
+{
+  "partNumber": 2,
+  "partName": "Building A Foundation",
+  "chapterNumber": 9,
+  "chapterTitle": "The Power of Connection",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Social Relationships and Happiness",
+  "précis": "The chapter explores the critical role of relationships in happiness, emphasizing humans’ evolutionary need for connection. It highlights empathy, trust, and authenticity as pillars of meaningful bonds, offering practical exercises like perspective-taking to foster empathy. Aligned with the Five Laws, the author advocates reciprocal relationships over superficial digital ties, using humor to underscore connection’s profound impact on well-being.",
+  "condensed": "Humans are wired for connection, not isolation, with relationships boosting happiness and health via oxytocin release. Empathy, trust, and authenticity create nourishing bonds, unlike shallow social media ties. Practicing perspective-taking strengthens empathy, while trust and authenticity foster emotional safety. Reciprocal relationships, aligned with the Five Laws, amplify joy through mutual support, making connection a vital happiness driver."
+}

@@ -1,0 +1,10 @@
+{
+  "partNumber": 5,
+  "partName": "Career & Purpose",
+  "chapterNumber": 23,
+  "chapterTitle": "What Fulfillment Actually Looks Like",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Defining Career Fulfillment",
+  "précis": "This chapter explores what constitutes a fulfilling career, emphasizing intrinsic rewards over external markers like wealth or titles. It outlines tangible outcomes—progress, value alignment, flow, positive relationships, contribution, boundaries, and autonomy—that foster joy and purpose. The author urges readers to audit their current roles against these elements and prioritize personal happiness and resilience, using sharp humor and vivid metaphors to frame career navigation as a chaotic but rewarding journey.",
+  "condensed": "A fulfilling career prioritizes intrinsic rewards: progress, skill growth, value alignment, flow states, positive workplace relationships, meaningful contribution, work-life balance, and autonomy. Financial stability matters but shouldn’t dominate. Audit your job for these elements; rank your top three for future roles. Avoid chasing wealth at others’ expense. Use these as a filter for job exploration to align with personal happiness and resilience, ensuring a sustainable, meaningful career path."
+}

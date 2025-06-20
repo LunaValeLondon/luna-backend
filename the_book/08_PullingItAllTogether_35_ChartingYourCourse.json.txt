@@ -1,0 +1,10 @@
+{
+  "partNumber": 8,
+  "partName": "Pulling It All Together",
+  "chapterNumber": 35,
+  "chapterTitle": "Charting Your Course",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Avoiding Happiness Triggers",
+  "précis": "This chapter guides readers to identify and sidestep unhappiness triggers—toxic relationships, draining environments, unfulfilling obligations, negative self-talk, and past trauma echoes. It offers strategies like setting boundaries, strategic retreat, and curating spaces, all tied to the Five Laws. The author’s humor frames a proactive approach to cultivating a joy-preserving ecosystem in life’s chaos.",
+  "condensed": "Spot unhappiness triggers: toxic people, bleak spaces, draining tasks, harsh self-talk, and past trauma. Dodge them with boundaries, limited contact, curated environments, saying “no,” and coping tools. Align with the Five Laws—happiness, non-maleficence, resilience, future respect, incremental progress—to build a life that nurtures joy and minimizes gloom."
+}

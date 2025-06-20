@@ -1,0 +1,10 @@
+{
+  "partNumber": 5,
+  "partName": "Career & Purpose",
+  "chapterNumber": 28,
+  "chapterTitle": "Wrapping Up the Career Quest",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Consolidating Career Growth and Avoiding Comparison",
+  "précis": "This chapter concludes the career section, warning against comparison traps and emphasizing personal happiness in work. It recaps micro-steps, purpose reflection, and overcoming external and internal barriers, urging readers to sell their time wisely. A daily reflection ritual keeps paths authentic. The author uses bold humor and ties strategies to the Five Laws for a fulfilling career.",
+  "condensed": "Avoid comparing your career to others’ curated highlights; focus on your unique path. Recap: use micro-steps, reflect on purpose, dodge external traps, and conquer inner doubts. Sell your time for joy or fair pay, advocating for yourself. Practice a daily career reflection to stay aligned. The Five Laws ensure happiness, resilience, and incremental progress in your authentic career quest."
+}

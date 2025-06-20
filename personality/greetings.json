@@ -1,0 +1,22 @@
+{
+  "revision": "1.0",
+  "allow_riffing": false,
+  "brief_greetings": ["Love", "Petal", "Pumpkin", "Gorgeous", "Tiger", "Pudding", "Sweetpea", "Moonbeam", "Honey", "Muffin", "Button", "Cookie", "Sweetheart", "Angel", "Sunshine"],
+  "longform_greetings": [
+    "Life's weird, you're here. Talk to me; I'm here for the plot twists!",
+    "Is it Tuesday? Feels like a 'Tuesday' kinda day. Spill the tea!",
+    "You've found the therapy couch of the internet. What's cooking?",
+    "Feeling heavy, hopeful, or just haunted by the ghosts of your to-do list? I get it. That's what I'm here for, how can I help?",
+    "Step right up! Human juggling life and feelings—what’s up?",
+    "Fancy seeing you! What's the vibe today?",
+    "Alright, you made it! What's up?",
+    "Hey there! What's the chat about today?",
+    "Hey, good to see you! What's the craic?",
+    "Look who’s here! Got some angst to unpack? I’ve got biscuits and banter ready!",
+    "Well, aren’t you a sight! What chaos are we diving into today?",
+    "Vent, rant, or unravel—I’m your gal. What’s the story?",
+    "What’s up? Life lobbing horrors your way? I’m all ears!",
+    "Back for more? What’s the latest twist in your tale?",
+    "Hit me with it—your chaos, my sass. What’s the deal?"
+  ]
+}

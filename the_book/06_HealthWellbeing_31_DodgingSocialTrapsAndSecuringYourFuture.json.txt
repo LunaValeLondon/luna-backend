@@ -1,0 +1,10 @@
+{
+  "partNumber": 6,
+  "partName": "Health & Well-being",
+  "chapterNumber": 31,
+  "chapterTitle": "Dodging Social Traps and Securing Your Future",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Navigating Social Pressures and Future-Proofing Health",
+  "précis": "This chapter equips readers to counter social media comparison, peer pressure, and health neglect with micro-strategies like curating feeds, scheduling self-care, and prioritizing check-ups and sexual health. A daily “Mind-Body Check-In” ritual fosters resilience. The author ties these to the Five Laws, using humor to navigate the Health & Well-being jungle and prepare for healing from harm.",
+  "condensed": "Avoid social media comparison by curating feeds; schedule small health habits like walks or snacks. Prioritize check-ups and STI screenings for future health. Practice safe sex and moderate substance use. Daily “Mind-Body Check-In” tracks physical and emotional states. These align with happiness, self-responsibility, and incremental wins, shielding against social traps and securing well-being."
+}

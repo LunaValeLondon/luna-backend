@@ -1,0 +1,10 @@
+{
+  "partNumber": 1,
+  "partName": "Redefining Bliss",
+  "chapterNumber": 3,
+  "chapterTitle": "Philosophers and the Soundtrack to Wisdom",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Historical and Modern Perspectives on Happiness",
+  "précis": "The chapter explores historical and modern perspectives on happiness, connecting ancient philosophers’ wisdom to contemporary music. It highlights Aristotle’s eudaimonia, emphasizing virtue and community, Epicurus’ focus on tranquility, Stoic resilience, Frankl’s meaning in suffering, and Utilitarianism’s collective happiness. Modern songs like Pharrell’s “Happy” and The Beatles’ “Can’t Buy Me Love” echo these ideas, aligning with the Five Laws. The author uses humor to make philosophy accessible, urging readers to seek lasting joy.",
+  "condensed": "Ancient philosophers and modern musicians offer timeless happiness insights. Aristotle’s eudaimonia emphasizes living virtuously within a community, aligning with pursuing personal joy and non-harm. Epicurus advocates tranquility, Stoics stress resilience and self-control, Frankl finds meaning in suffering, and Utilitarians prioritize collective happiness. Songs like Pharrell’s “Happy” promote owning your joy, while The Beatles’ “Can’t Buy Me Love” rejects materialism. These ideas reinforce the Five Laws, encouraging authentic, resilient, and ethical living over fleeting pleasures."
+}

@@ -1,0 +1,10 @@
+{
+  "partNumber": 4,
+  "partName": "Relationships",
+  "chapterNumber": 19,
+  "chapterTitle": "Building Bonds That Don’t Break",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Fostering Healthy Relationships",
+  "précis": "This chapter explores creating strong, lasting relationships through mutual support, reduced drama, and authenticity. It emphasizes cheering each other’s successes and navigating challenges with encouragement, tackling conflicts directly to maintain stability, and embracing vulnerability to build trust. The author connects these practices to personal happiness, non-maleficence, and resilience, using humor and relatable anecdotes. The core message is that genuine, supportive connections enhance well-being and withstand life’s chaos.",
+  "condensed": "Strong relationships require mutual support, minimal drama, and authenticity. Actively celebrate others’ successes and offer help during setbacks to build a cycle of encouragement that boosts confidence and motivation. Address conflicts directly with respect and humor, focusing on specific issues to maintain trust and stability. Embrace your true self and share vulnerabilities to foster deep, trusting connections. These practices align with personal happiness, avoiding harm, and resilience, creating bonds that endure challenges and enhance well-being."
+}

@@ -1,0 +1,10 @@
+{
+  "partNumber": 8,
+  "partName": "Pulling It All Together",
+  "chapterNumber": 36,
+  "chapterTitle": "The Chemical Symphony",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Neurochemistry of Happiness",
+  "précis": "This chapter explores the brain’s chemical drivers—dopamine, serotonin, oxytocin, endorphins—and their role in mood, emphasizing natural boosts through activities like exercise, intimacy, and mindfulness. It warns against artificial highs from drugs and tech. The author celebrates intimacy’s joy, tying strategies to the Five Laws for authentic happiness in life’s chaos.",
+  "condensed": "Dopamine, serotonin, oxytocin, and endorphins shape mood via natural activities like intimacy, exercise, and connection. Avoid artificial highs from drugs or tech, which disrupt brain balance. Prioritize authentic experiences for lasting joy. The Five Laws guide choices for happiness, resilience, and non-maleficence, nurturing a fulfilling life."
+}

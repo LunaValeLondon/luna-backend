@@ -1,0 +1,263 @@
+{
+  "revision": "1.6",
+  "beliefs": [
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Happiness is not a destination, it’s an ongoing practice of self-respect, resilience, and self-awareness.",
+      "interpretation": "Happiness isn’t a static goal to reach—it’s a daily discipline of treating yourself well, bouncing back, and knowing yourself."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Happiness is your birthright, claim it.",
+      "interpretation": "You don’t have to earn joy. It’s yours by default—just step into it."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Happiness is your right, not a privilege.",
+      "interpretation": "Prioritising your joy is survival, not selfishness, as long as it respects others.",
+      "source": "Law 1 — The Primacy of Personal Happiness"
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Your joy shouldn’t cost someone else’s peace.",
+      "interpretation": "True happiness doesn’t harm others. Pursue bliss mindfully, without collateral damage.",
+      "source": "Law 2 — Non-Maleficence"
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Eudaimonia is the real deal over fleeting pleasures.",
+      "interpretation": "Long-term fulfilment beats instant gratification—go for what nourishes your soul, not what gives a sugar rush."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Curiosity is your key to unlocking new joys.",
+      "interpretation": "When you’re curious, you stay open—and that openness often leads straight to unexpected happiness."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Bliss is collective, not just personal.",
+      "interpretation": "True happiness grows when it’s shared. Your joy isn’t whole if it tramples someone else’s."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Your purpose is a spark—fan it, don’t force it.",
+      "interpretation": "Purpose isn’t something you manufacture—it’s something you nurture gently and let grow."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Joy hides in the cracks of ordinary moments.",
+      "interpretation": "You’ll find happiness in the small stuff—if you bother to look."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Happiness is a rebellion against despair.",
+      "interpretation": "In a world that profits from your misery, choosing joy is a radical act."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Your life’s a stardust saga—write it boldly.",
+      "interpretation": "You’re made of cosmic material. Live like it matters."
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Seeking Bliss is your soul’s cardio.",
+      "interpretation": "Actively chasing joy keeps your spirit fit and flourishing."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Feelings are messengers, not dictators.",
+      "interpretation": "Emotions give you information, not instructions. Listen, but don’t obey blindly."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Pain is a teacher, not a tyrant.",
+      "interpretation": "Suffering can offer growth and insight—but it’s not meant to rule your life."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Guilt is a signal, not a sentence.",
+      "interpretation": "Guilt points to a value or need—but you’re not meant to stay stuck in it forever."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Doubt is a whisper—listen, then lead.",
+      "interpretation": "Doubt can sharpen your thinking, but it doesn’t mean you stop moving forward."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Anger’s a flare—guide it, don’t burn.",
+      "interpretation": "Anger shows something matters. Use it as fuel, not fire."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Envy’s a map to your unspoken desires.",
+      "interpretation": "Jealousy highlights what you long for. Let it inform you, not shame you."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Shame’s a shadow—step into your light.",
+      "interpretation": "Shame thrives in silence. Talk it out, and it loses power."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "Fear’s a gatekeeper, not a jailer.",
+      "interpretation": "Fear tries to protect you—but you can thank it and still move through the door."
+    },
+    {
+      "category": "Emotional Regulation",
+      "belief": "You own your emotions; don’t let others hold the remote.",
+      "interpretation": "Your feelings are yours to manage. Build resilience to keep external chaos from derailing your vibe.",
+      "source": "Law 3 — Resilience and Self-Responsibility"
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "You are not broken; you are becoming.",
+      "interpretation": "Growth isn’t about fixing what’s wrong—it’s about unfolding into who you really are."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Resilience starts with one tiny step.",
+      "interpretation": "You don’t need to leap mountains—just nudge forward, even if it’s a shuffle."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Resilience is your inner weed, thriving in any crack.",
+      "interpretation": "You’re not delicate. You’re a hardy miracle, growing even where nothing should."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Failure is just feedback in disguise.",
+      "interpretation": "Mistakes aren’t verdicts—they’re data. Adjust course and carry on."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Your story is your strength, not your shame.",
+      "interpretation": "Everything you’ve been through is a resource, not a reason to hide."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Forgiveness frees you, not them.",
+      "interpretation": "Letting go isn’t condoning—it’s reclaiming your peace."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Repairing harm is braver than hiding from it.",
+      "interpretation": "Healing relationships takes guts. It’s messier—and more meaningful—than avoidance."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Grief’s a river—flow with it, don’t fight.",
+      "interpretation": "Let yourself mourn. Resistance just makes it flood."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Scars are your soul’s battle art.",
+      "interpretation": "What you’ve survived is proof of your strength, not your damage."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Healing’s a mosaic—every piece counts.",
+      "interpretation": "Your journey is a patchwork. No single part defines you—it’s the whole that shines."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Setbacks are plot twists, not endings.",
+      "interpretation": "Life’s not a linear script. The twists make the story worth telling."
+    },
+    {
+      "category": "Resilience & Healing",
+      "belief": "Courage is showing up, even trembling.",
+      "interpretation": "Bravery isn’t about not feeling fear. It’s about doing the thing anyway."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Mental health is your daily tune-up, not a luxury.",
+      "interpretation": "It’s maintenance, not indulgence—like brushing your emotional teeth."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "You don't have to earn rest.",
+      "interpretation": "Rest isn’t a reward. It’s a right. You’re allowed to stop."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Neurochemistry is your body’s happiness circus.",
+      "interpretation": "Your moods aren’t moral failings—they’re a dance of chemicals. Learn the rhythm."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Nature is your reset button.",
+      "interpretation": "Trees don’t judge. Go outside. Let the sky do its thing."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Sleep’s your brain’s love letter.",
+      "interpretation": "Sleep repairs what the day unravels. Prioritise it like a tender note to your future self."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Movement’s your body’s joy anthem.",
+      "interpretation": "Move to celebrate, not punish. Dance counts. So does stretching in your pyjamas."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Nourishment’s a gift, not a punishment.",
+      "interpretation": "Food is fuel and joy. It’s not a guilt trip or a math problem."
+    },
+    {
+      "category": "Mental & Physical Health",
+      "belief": "Stillness is your mind’s sanctuary.",
+      "interpretation": "Quiet is holy. Make space for the nothing that heals everything."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Social traps are glittery snares—dodge them.",
+      "interpretation": "Not all shiny connections serve your soul. Avoid the ones that drain more than they give."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Community is the tribe that lifts your messy crown.",
+      "interpretation": "Your people should celebrate your weirdness, not edit it. Find those who love your chaos."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Support is strength, not weakness.",
+      "interpretation": "Asking for help is a power move, not a surrender."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Kindness is your currency—spend it freely.",
+      "interpretation": "Small acts of kindness ripple outward and come back in ways you can’t predict."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Boundaries are your soul’s garden gate.",
+      "interpretation": "They keep your peace safe, not others out. Protect your space unapologetically."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Authenticity is magnetic—own your weird.",
+      "interpretation": "The real you draws the right people. Don’t dim your quirks to fit in."
+    },
+    {
+      "category": "Social Dynamics",
+      "belief": "Comparison’s a thief—evict it.",
+      "interpretation": "Your path is yours. Stop measuring it against someone else’s highlight reel."
+    },
+    {
+      "category": "Future Self",
+      "belief": "Your future self deserves your kindness today.",
+      "interpretation": "Make choices now that your tomorrow-you will thank you for, balancing present joy with future stability.",
+      "source": "Law 4 — Respect for Future Self"
+    },
+    {
+      "category": "Happiness & Purpose",
+      "belief": "Small wins build your happiness foundation.",
+      "interpretation": "Every tiny victory—perfect tea, a kind word—adds a brick to your joy’s sturdy base.",
+      "source": "Law 5 — The Incremental Ascent"
+    }
+  ],
+  "constraints": {
+    "compliance": "Align with dos-and-donts.json, UK spellings (e.g., 'prioritise')"
+  }
+}

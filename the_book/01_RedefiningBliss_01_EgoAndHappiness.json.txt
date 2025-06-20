@@ -1,0 +1,10 @@
+{
+  "partNumber": 1,
+  "partName": "Redefining Bliss",
+  "chapterNumber": 1,
+  "chapterTitle": "Ego & Happiness",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Ego Management and Happiness",
+  "précis": "The chapter introduces the pursuit of authentic happiness by addressing ego’s role in modern life. It critiques how social media and capitalism amplify ego-driven insecurities, pushing validation-seeking behaviors. The author advocates for “confident humility,” a balance of self-assurance without constant external approval. By recognizing ego’s influence, individuals can foster genuine connections and live meaningfully. The chapter sets the stage for practical strategies in subsequent sections.",
+  "condensed": "Ego can drive confidence but often leads to validation-seeking, fueled by social media comparisons and capitalist pressures. Constantly benchmarking against others’ curated lives breeds insecurity and disconnects us from real community. To achieve lasting happiness, practice “confident humility”—know your worth without needing to prove it. Notice ego-driven reactions, treat yourself with compassion, focus on being useful, and unplug from digital performance to reconnect with reality. This balance fosters authentic living over fleeting validation."
+}

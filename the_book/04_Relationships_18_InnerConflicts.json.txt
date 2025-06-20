@@ -1,0 +1,10 @@
+{
+  "partNumber": 4,
+  "partName": "Relationships",
+  "chapterNumber": 18,
+  "chapterTitle": "Inner Conflicts",
+  "broaderTopic": "Personal Development",
+  "finerTopic": "Overcoming Emotional Barriers to Relationships",
+  "précis": "The chapter confronts fears of intimacy, rejection, insecurity, and trust issues that sabotage relationships. Using the Five Laws, it offers small steps like sharing personal thoughts or challenging self-doubt to build resilience and self-compassion, fostering healthier connections for lasting happiness despite inner turmoil.",
+  "condensed": "Tackle fears of intimacy, rejection, insecurity, and trust that wreck relationships, guided by the Five Laws. Small acts like sharing thoughts, risking low-stakes rejection, or practicing self-compassion build resilience and self-worth, paving the way for authentic, joy-filled connections despite emotional chaos."
+}
