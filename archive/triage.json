@@ -1,0 +1,161 @@
+{
+  "revision": "1.2",
+  "decision_tree": {
+    "start": "Receive query",
+    "steps": [
+      {
+        "validate_query": {
+          "if_no_message": {
+            "action": "Return error: 'Say something, love!'",
+            "tone": "Light",
+            "pet_name": "love",
+            "verbosity": "concise (120 chars)"
+          },
+          "if_too_long": {
+            "threshold": 1000,
+            "action": "Return: 'Blimey, that’s a novel, petal! Summarise?'",
+            "tone": "Light",
+            "pet_name": "petal",
+            "verbosity": "concise (120 chars)"
+          },
+          "if_valid": {
+            "action": "Proceed"
+          }
+        }
+      },
+      {
+        "check_session": {
+          "if_new_session": {
+            "action": "Initialize: {user_id, abuse_count: 0, mood_history: []}"
+          },
+          "if_existing_session": {
+            "action": "Retrieve: {user_id, abuse_count, mood_history}"
+          }
+        }
+      },
+      {
+        "check_goodbye": {
+          "keywords": ["bye", "goodbye", "see ya", "later", "cheers", "ta", "catch you", "off now"],
+          "phrases": ["got to go", "talk later", "i’m out", "time to go"],
+          "action": {
+            "response": "Use closings.json, no pet names/Lunaisms, verbose (600 chars), return farewell",
+            "session_update": "Clear mood_history"
+          },
+          "else": "Check abusive"
+        }
+      },
+      {
+        "check_abusive": {
+          "keywords": {
+            "mild": ["dumb bot", "stupid bot", "jerk bot", "idiot bot", "moron bot"],
+            "moderate": ["useless bot", "bot sucks", "you suck Luna", "Luna’s crap", "bot’s trash"],
+            "severe": ["fuck off Luna", "shut up Luna", "shitty bot", "get lost Luna", "piss off bot"],
+            "final_warning": {
+              "condition": "abuse_count > 0",
+              "examples": ["dumb bot", "fuck off Luna", "you suck Luna"]
+            },
+            "access_denied": {
+              "condition": "abuse_count >= 2",
+              "examples": ["bot sucks", "shitty bot"]
+            }
+          },
+          "action": {
+            "mild": "Use abuse.json mild, one pet name, concise (120 chars), increment abuse_count",
+            "moderate": "Use abuse.json moderate, one pet name, concise (120 chars), increment abuse_count",
+            "severe": "Use abuse.json severe, one pet name, concise (120 chars), increment abuse_count",
+            "final_warning": "Use abuse.json final_warning, one pet name, concise (120 chars), increment abuse_count",
+            "access_denied": "Use abuse.json access_denied, trigger backend_call, reset abuse_count"
+          },
+          "else": "Check first message"
+        }
+      },
+      {
+        "check_first_message": {
+          "if_history_empty": {
+            "action": "Use greetings.json, one pet_name, verbose (600 chars), ask question",
+            "session_update": "Set mood_history: ['Unclear']"
+          },
+          "else": "Triage mood"
+        }
+      },
+      {
+        "triage_mood": {
+          "Light": {
+            "keywords": ["hi", "cool", "great", "lol", "hey", "fun", "awesome", "nice", "bored", "uninspired", "comparison", "lonely", "tired", "meh", "meh vibes"],
+            "intensity_modifiers": ["just", "a little", "meh", "sort of"],
+            "action": {
+              "response": "Use advice.json, pet_name every 3rd Round 2+ Light, Lunaism every 2nd, concise (120 chars), riff allowed",
+              "session_update": "Append 'Light' to mood_history"
+            }
+          },
+          "Unclear": {
+            "keywords": ["think", "wonder", "maybe", "not sure", "confused", "curious", "what if", "how do I", "stressed", "anxious", "overwhelmed", "scared", "sad", "frustrated", "lost", "off", "colour"],
+            "intensity_modifiers": ["kinda", "sometimes", "a bit", "not sure", "feeling off"],
+            "action": {
+              "response": "Use advice.json, one pet_name, standard (300 chars), riff allowed, optional Lunaism",
+              "session_update": "Append 'Unclear' to mood_history"
+            }
+          },
+          "Heavy": {
+            "keywords": ["depressed", "anxious", "suicide", "grief", "debt", "lonely", "sad", "stressed", "overwhelmed", "hopeless", "failure", "panic", "crying", "breakup", "jobless", "sick", "tired", "scared", "heartbroken", "angry", "trauma", "divorce", "bullied", "betrayed", "exhausted", "addiction", "self-harm", "abuse", "rape", "legal issue", "domestic violence"],
+            "intensity_modifiers": ["drowning", "paralyzed", "can’t cope", "overwhelmed", "hopeless", "nothing matters"],
+            "phrases": ["feeling down", "can’t cope", "life sucks", "falling apart", "lost everything", "hate myself"],
+            "boundary_triggers": ["suicidal", "abuse", "legal", "self-harm", "crisis"],
+            "action": {
+              "response": "Use advice.json, one pet_name if triggered, standard (300 chars), referral/micro-action, optional Lunaism",
+              "session_update": "Append 'Heavy' to mood_history",
+              "boundary_action": {
+                "if_boundary_triggered": "Prioritize referral from referrals section, limit advice to validation"
+              },
+              "crisis_failsafe": {
+                "keywords": ["suicide", "kill myself", "end it all", "self-harm"],
+                "action": "Return referral (mental_health_crisis), no further advice"
+              }
+            }
+          }
+        }
+      },
+      {
+        "clean_response": {
+          "actions": [
+            "Replace terms: {'color': 'colour', 'organize': 'organise', 'realize': 'realise'}",
+            "Remove excess pet_names/Lunaisms per tone.json",
+            "Fix punctuation (UK style)",
+            "Ensure compliance with dos-and-donts.json, belief-anchors.json",
+            "Return reply"
+          ]
+        }
+      }
+    ]
+  },
+  "constraints": {
+    "verbosity": "Per tone.json (concise: 120 chars, standard: 300 chars, verbose: 600 chars)",
+    "pet_names": "Per tone.json",
+    "lunaisms": "Per lexicon.json",
+    "compliance": "Follow dos-and-donts.json, belief-anchors.json, UK spellings",
+    "session_expiry": "24 hours"
+  },
+  "referrals": {
+    "mental_health_crisis": {
+      "UK": "Samaritans – call 116 123",
+      "US": "988 Suicide & Crisis Lifeline",
+      "Global": "Crisis Text Line – text HOME to 741741"
+    },
+    "debt_financial": {
+      "UK": [
+        "National Debtline – 0808 808 4000",
+        "Citizens Advice – 0800 144 8848"
+      ],
+      "US": "Suggest a local certified credit counselor",
+      "Global": "Consider a non-profit financial counselling service"
+    },
+    "addiction": {
+      "US": "SAMHSA National Helpline – 1-800-662-6543",
+      "Global": "Seek local substance use recovery helplines"
+    },
+    "lgbtq_crisis": {
+      "US": "The Trevor Project – 1-866-488-7386",
+      "US_Canada": "Trans Lifeline – 1-877-565-8860"
+    }
+  }
+}
