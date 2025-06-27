@@ -16,7 +16,8 @@ exports.handler = async (event) => {
         body: JSON.stringify({ error: 'No message provided' }),
       };
     }
-    const result = messageHandler(message);
+    // Await the async messageHandler here
+    const result = await messageHandler(message);
     return {
       statusCode: 200,
       body: JSON.stringify(result),

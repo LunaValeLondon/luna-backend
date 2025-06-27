@@ -1,3 +1,4 @@
+// index.js (full file)
 const fs = require('fs');
 const dotenv = require('dotenv');
 const { logMessage } = require('./logging');
@@ -6,24 +7,18 @@ const OpenAI = require('openai');
 dotenv.config();
 
 const apiKey = process.env.OPENAI_API_KEY;
-const openai = new OpenAI({
-  apiKey: apiKey,
-});
+const openai = new OpenAI({ apiKey });
 
 const promptData = JSON.parse(fs.readFileSync('./system-prompt.json', 'utf8'));
 const instructions = promptData.instructions;
 
 async function messageHandler(message, sessionId = null) {
-  // Simple abusive check - immediate reply
   const lowerMsg = message.toLowerCase();
   if (lowerMsg.includes('stupid') || lowerMsg.includes('shut up')) {
     const response = 'Please keep it respectful';
     logMessage({ message, sessionId, category: 'Abusive', response });
     return { response };
   }
-
-  // Build the prompt to send to OpenAI
-  const prompt = `${instructions}\nUser input: "${message}"\nReply:`;
 
   try {
     const completion = await openai.chat.completions.create({
@@ -37,8 +32,6 @@ async function messageHandler(message, sessionId = null) {
     });
 
     const response = completion.choices[0].message.content.trim();
-
-    // Log and return
     logMessage({ message, sessionId, category: 'Processed', response });
     return { response };
 
@@ -50,5 +43,4 @@ async function messageHandler(message, sessionId = null) {
   }
 }
 
-// Export as async function for Netlify usage
 module.exports = { messageHandler };
