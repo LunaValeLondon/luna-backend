@@ -1,4 +1,5 @@
-const { messageHandler } = require('../index');
+const path = require('path');
+const { messageHandler } = require(path.join(__dirname, '..', 'index'));
 
 exports.handler = async (event) => {
   try {
@@ -16,8 +17,7 @@ exports.handler = async (event) => {
         body: JSON.stringify({ error: 'No message provided' }),
       };
     }
-    // Await the async messageHandler here
-    const result = await messageHandler(message);
+    const result = messageHandler(message);
     return {
       statusCode: 200,
       body: JSON.stringify(result),
