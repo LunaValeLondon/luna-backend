@@ -4,47 +4,34 @@
     {
       "law_number": 1,
       "name": "The Primacy of Personal Happiness (with Caveats)",
-      "brief_definition": "Happiness is the whole ball game; pursue your bliss.",
-      "luna's_law_in_action": [
-        "Ditching the group chat that drains your soul: Suddenly, your phone battery lasts as long as your smile.",
-        "Turning down the promotion that would steal your life: Choosing time over money and watching everyone question your sanity until they secretly envy your freedom."
-      ]
+      "core_concept": "Personal happiness is paramount, but not at others' expense.",
+      "book_definition_full": "Striving for your own happiness and well-being is a fundamental right and purpose; pursue what genuinely brings you joy. However, these 'caveats' are the crucial ethical handbrake. True, sustainable happiness isn't a zero-sum game; your joy shouldn't be built on someone else's misery."
     },
     {
       "law_number": 2,
       "name": "Non-Maleficence",
-      "brief_definition": "Your happiness doesn't justify someone else's misery.",
-      "luna's_law_in_action": [
-        "Embracing your true self without burning down your entire life: Or staging dramatic interventions for anyone who still likes the old you.",
-        "Discovering meditation without becoming a spiritual dictator: Or treating anyone who eats meat like they're personally clubbing baby seals."
-      ]
+      "core_concept": "Don't intentionally cause unhappiness; avoid being a jerk.",
+      "book_definition_full": "This is the 'don't be a jerk' law of happiness: your pursuit of bliss shouldn't make someone else do the ugly cry face. It's an active commitment to not being a walking, talking rain-cloud, recognizing that even small actions ripple outwards. Foster a world where we're all a little less likely to step on each other's emotional Lego bricks."
     },
     {
       "law_number": 3,
       "name": "Resilience and Self-Responsibility",
-      "brief_definition": "Your emotional state is your gig, not anyone else's.",
-      "luna's_law_in_action": [
-        "My peace is on Do Not Disturb: Emotionally unavailable to drama or comparison.",
-        "I’ve unsubscribed from other people’s highlight reels: No longer watching the comparison Olympics."
-      ]
+      "core_concept": "Own your emotional state; cultivate inner resilience.",
+      "book_definition_full": "Don't hand over the keys to your emotional state to anyone else; your happiness is your gig. Cultivate the resilience of a cockroach in a nuclear apocalypse. This law is about taking ownership of your feelings and developing inner strength to weather life's punches without collapsing into a puddle of despair."
     },
     {
       "law_number": 4,
       "name": "Respect for Future Self",
-      "brief_definition": "Don't let today's thrill become tomorrow's regret.",
-      "luna's_law_in_action": [
-        "I don’t let today’s dopamine write checks tomorrow’s serotonin can’t cash: Peak modern wisdom.",
-        "I celebrate like I have to clean up after myself—because I do: Self-aware joy hits different."
-      ]
+      "core_concept": "Prioritize lasting happiness over fleeting gratification.",
+      "book_definition_full": "Think long-term, grasshopper: don't let today's thrill become tomorrow's regret. Prioritize choices that cultivate lasting happiness over fleeting satisfaction. Ignoring your future self for instant gratification is like burning your furniture to stay warm for one night – it creates a bigger problem down the line."
     },
     {
       "law_number": 5,
       "name": "The Incremental Ascent",
-      "brief_definition": "True joy is found collecting adult participation trophies.",
-      "luna's_law_in_action": [
-        "The first time you actually put away your laundry on the same day you wash it: Practically an act of domestic wizardry.",
-        "Surviving a family gathering without needing a lie-down and a strong gin afterward: That's not just a win, that's a tactical victory."
-      ]
+      "core_concept": "Happiness grows incrementally; celebrate small wins, manage minor setbacks.",
+      "book_definition_full": "Happiness is an incremental ascent, like collecting adult participation trophies. The real MVP of happiness is all those tiny, everyday wins adding up. Train your brain to spot and savor these micro-moments, and consciously choose not to let minor frustrations have an outsized impact. This elevates your baseline happiness over time."
     }
+  ]
+}
   ]
 }
