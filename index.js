@@ -8,7 +8,7 @@ dotenv.config();
 const apiKey = process.env.OPENAI_API_KEY;
 
 // Load the chatbot instructions
-const promptData = JSON.parse(fs.readFileSync('system-prompt.json', 'utf8'));
+const promptData = JSON.parse(fs.readFileSync('./system-prompt.json', 'utf8'));
 const instructions = promptData.instructions;
 
 // This handles messages from Wix
