@@ -1,18 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 const dotenv = require('dotenv');
-const { logMessage } = require('./logging');
+const { logMessage } = require('./logging');  // Ensure logging.js is in same folder
 
 dotenv.config();
 
-// Construct absolute path to system-prompt.json inside netlifyFunctions folder
-const promptFilePath = path.join(process.cwd(), 'netlifyFunctions', 'system-prompt.json');
-const promptData = JSON.parse(fs.readFileSync(promptFilePath, 'utf8'));
+const apiKey = process.env.OPENAI_API_KEY;
+
+// Use absolute path to system-prompt.json inside netlifyFunctions folder
+const promptPath = path.join(__dirname, 'system-prompt.json');
+const promptData = JSON.parse(fs.readFileSync(promptPath, 'utf8'));
 const instructions = promptData.instructions;
 
-// This handles messages from Wix
 const messageHandler = function (message, sessionId = null) {
-    // For now, use a simple rule to decide the message type
     let category = 'Greeting';
     if (message.toLowerCase().includes('sad') || message.toLowerCase().includes('upset')) {
         category = 'Heavy';
@@ -20,20 +20,16 @@ const messageHandler = function (message, sessionId = null) {
         category = 'Abusive';
     }
 
-    // Create a response based on the type
     let response = '[PERSONALITY_RESPONSE]';
     if (category === 'Abusive') {
         response = 'Please keep it respectful';
     }
 
-    // Save the message to the log
     logMessage({ message, sessionId, category, response });
 
-    // Return the response for Wix
     return {
         response: response
     };
 };
 
-// Make this available for Wix to use
 module.exports = { messageHandler };
